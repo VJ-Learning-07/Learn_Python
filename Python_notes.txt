@@ -1,0 +1,74 @@
+% Python notes
+% Tuesday, 15/07 23∶16
+% Notebook: No Notebook
+
+-comment out a line - ctrl + /
+
+-priority (PEMDAS RULE)(parentheses , exponent , multiply , divide , add ,subtract)
+use three single quotes to print multi line string print('''      ''') - can use for ascii art
+
+- A group of functions saved to a file , is called Module(can create our own modules file and import them in our programs like other modules and use functions in it
+
+
+- random.randint(a, b) , which returns a random integer between a and b
+-random.random() ,To generate random floating-point numbers b/w 0 and 1
+-random.uniform(a, b) , returns a random floating-point number between a and b
+
+
+-extend() adds multiple items from another list to the end.
+
+-random.choice() , allows us to select a random item from a sequence, such as a list.
+ 
+
+- loop in list
+for list_item in list:
+
+-sum()  which allows us to put in any iterable data type, including lists. ex-- sum(list)
+-max() to find max value  ex - max(list)
+	
+-random.shuffle(list) - to shuffle items
+
+-        ''.join(list)  - to concatenate all characters of list into a string
+
+debugg episode 50 afer 15 days
+
+- in statement - can check if a character or statement in anything - ex-   if "-"   in string	 
+
+- in fxn parameter is the name of the data that is being passed in and argument is the actual value of the data
+- (The order of arguments in a function call determines which parameter they are assigned to, known as positional arguments.
+Using keyword arguments allows for explicit assignment of values to parameters, regardless of order.
+Keyword arguments can help make code less error-prone, especially when functions have multiple parameters.)example(a=1, b=2, c=3)
+greetwith(name="Angela", location="London")
+greetwith(location="London", name="Angela")
+
+
+- The count() method returns the number of elements with the specified value.             -    list.count(value)
+
+-The Python index() function helps find the position of a letter in the alphabet list, which is crucial for shifting letters.
+
+- the Python string method .title(), which converts each word in a string to start with a capital letter.
+
+
+
+-A function can have multiple return statements, and the first return encountered ends the function execution.
+-Code after a return statement within the same function does not execute.
+-An empty return statement can be used to exit a function early without returning a value.
+-Returning meaningful messages on early exit helps developers understand the function's behavior.
+
+-Docstrings provide a way to document functions and blocks of code directly within Python. It is enclosed within three quotation marks ("""). Inside these triple quotes, you write your documentation.
+
+-To use the dictionary to perform a calculation, access the function by its key and call it with the required numbers. For example, to multiply 4 by 8 using the dictionary:
+ex-result = operations["*"](4, 8)
+print(result)  # Output: 32
+
+
+ The remove() function searches for the first instance of the specified element and removes it from the list.
+
+-Select the whole code and press tab to indent it completely
+
+DAY12
+- ctrl+backspace to delete by word
+-
+
+
+	
